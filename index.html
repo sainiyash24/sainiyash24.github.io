@@ -1,36 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
     <title>Yash Saini | Full Stack Java Developer</title>
 
     <meta name="description"
-          content="Yash Saini is a Full Stack Java Developer specializing in Java, Spring Boot, React.js, MySQL and modern web application development.">
+        content="Yash Saini is a Full Stack Java Developer specializing in Java, Spring Boot, React.js, REST APIs, MySQL and modern web application development.">
+
+    <meta name="keywords"
+        content="Yash Saini, Full Stack Java Developer, Java Developer, Spring Boot Developer, React Developer, Java Spring Boot, React.js, MySQL, REST API Developer">
 
     <meta name="author" content="Yash Saini">
 
-    <meta name="keywords"
-          content="Yash Saini, Full Stack Java Developer, Java Developer, Spring Boot Developer, React Developer, MySQL Developer">
+    <meta name="robots" content="index, follow, max-image-preview:large">
 
-    <link rel="canonical" href="https://sainiyash24.github.io/">
+    <link rel="canonical"
+        href="https://sainiyash24.github.io/">
 
-    <meta property="og:title" content="Yash Saini | Full Stack Java Developer">
-    <meta property="og:description"
-          content="Portfolio of Yash Saini, Full Stack Java Developer specializing in Java, Spring Boot, React.js and MySQL.">
+    <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://sainiyash24.github.io/">
+    <meta property="og:title"
+        content="Yash Saini | Full Stack Java Developer">
+    <meta property="og:description"
+        content="Portfolio of Yash Saini — Full Stack Java Developer specializing in Java, Spring Boot, React.js and MySQL.">
+    <meta property="og:url"
+        content="https://sainiyash24.github.io/">
     <meta property="og:image"
-          content="https://sainiyash24.github.io/yash-saini-profile.jpeg">
+        content="https://sainiyash24.github.io/yash-saini-profile.jpeg">
+    <meta property="og:site_name"
+        content="Yash Saini">
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Yash Saini | Full Stack Java Developer">
+    <!-- Twitter -->
+    <meta name="twitter:card"
+        content="summary_large_image">
+    <meta name="twitter:title"
+        content="Yash Saini | Full Stack Java Developer">
     <meta name="twitter:description"
-          content="Full Stack Java Developer portfolio of Yash Saini.">
+        content="Full Stack Java Developer portfolio of Yash Saini.">
+    <meta name="twitter:image"
+        content="https://sainiyash24.github.io/yash-saini-profile.jpeg">
 
-    <!-- Google structured data -->
+    <!-- Theme -->
+    <meta name="theme-color" content="#0f172a">
+
+    <!-- Favicon -->
+    <link rel="icon"
+        href="https://sainiyash24.github.io/yash-saini-profile.jpeg">
+
+    <!-- Google Font -->
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- =========================
+         STRUCTURED DATA
+    ========================== -->
+
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -39,201 +76,322 @@
         "url": "https://sainiyash24.github.io/",
         "image": "https://sainiyash24.github.io/yash-saini-profile.jpeg",
         "jobTitle": "Full Stack Java Developer",
-        "description": "Full Stack Java Developer specializing in Java, Spring Boot, React.js and MySQL.",
+        "description": "Full Stack Java Developer specializing in Java, Spring Boot, React.js, REST APIs and MySQL.",
+        "email": "mailto:sainiyash5678@gmail.com",
+        "telephone": "+91-9729760902",
+
+        "sameAs": [
+            "https://www.linkedin.com/in/yash-saini-cse/",
+            "https://www.instagram.com/yash.saini._/",
+            "https://github.com/sainiyash24"
+        ],
+
         "knowsAbout": [
             "Java",
             "Spring Boot",
             "React.js",
             "MySQL",
-            "JavaScript",
             "REST APIs",
             "Git",
-            "GitHub"
+            "Postman",
+            "Artificial Intelligence",
+            "Generative AI",
+            "Agentic AI"
         ]
     }
     </script>
 
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Yash Saini",
+        "url": "https://sainiyash24.github.io/",
+        "description": "Official portfolio website of Yash Saini, Full Stack Java Developer."
+    }
+    </script>
+
+
+    <!-- =========================
+         CSS
+    ========================== -->
+
     <style>
 
-        /* =========================
-           RESET
-        ========================= */
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+
+            --dark: #0f172a;
+            --dark-2: #1e293b;
+
+            --text: #334155;
+            --muted: #64748b;
+
+            --light: #f8fafc;
+            --white: #ffffff;
+
+            --border: #e2e8f0;
+
+            --shadow:
+                0 20px 50px rgba(15, 23, 42, 0.08);
+
+            --radius: 18px;
+        }
+
 
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-        }
-
-        html {
             scroll-behavior: smooth;
         }
 
+
         body {
-            font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.6;
-            background: #f8fafc;
-            color: #172033;
+            font-family: "Inter", sans-serif;
+            color: var(--text);
+            background: var(--white);
+            line-height: 1.7;
         }
+
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: "Poppins", sans-serif;
+            color: var(--dark);
+        }
+
 
         a {
             text-decoration: none;
             color: inherit;
         }
 
+
         img {
-            max-width: 100%;
             display: block;
+            max-width: 100%;
+        }
+
+
+        .container {
+            width: min(1120px, 92%);
+            margin: auto;
+        }
+
+
+        section {
+            padding: 100px 0;
+        }
+
+
+        .section-heading {
+            text-align: center;
+            margin-bottom: 55px;
+        }
+
+
+        .section-heading span {
+            display: inline-block;
+            color: var(--primary);
+            font-size: 14px;
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+
+        .section-heading h2 {
+            font-size: clamp(32px, 5vw, 44px);
+            margin-bottom: 12px;
+        }
+
+
+        .section-heading p {
+            max-width: 650px;
+            margin: auto;
+            color: var(--muted);
         }
 
 
         /* =========================
-           HEADER
-        ========================= */
+           NAVBAR
+        ========================== */
 
         header {
-            position: sticky;
+            position: fixed;
             top: 0;
+            left: 0;
+            width: 100%;
             z-index: 1000;
 
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
+            background: rgba(255,255,255,0.92);
+            backdrop-filter: blur(15px);
 
-            border-bottom: 1px solid #e5e7eb;
+            border-bottom: 1px solid rgba(226,232,240,0.8);
         }
 
-        .navbar {
-            max-width: 1150px;
-            margin: auto;
 
-            min-height: 72px;
+        .navbar {
+            height: 76px;
 
             display: flex;
             align-items: center;
             justify-content: space-between;
-
-            padding: 0 25px;
         }
+
 
         .logo {
-            font-size: 24px;
+            font-family: "Poppins", sans-serif;
+            font-size: 27px;
             font-weight: 800;
-            color: #111827;
+            color: var(--dark);
         }
+
 
         .logo span {
-            color: #2563eb;
+            color: var(--primary);
         }
 
-        nav {
+
+        .nav-links {
             display: flex;
-            gap: 28px;
+            align-items: center;
+            gap: 32px;
+            list-style: none;
         }
 
-        nav a {
-            font-size: 15px;
-            font-weight: 600;
-            color: #475569;
 
+        .nav-links a {
+            color: #475569;
+            font-weight: 600;
+            font-size: 15px;
             transition: 0.3s;
         }
 
-        nav a:hover {
-            color: #2563eb;
+
+        .nav-links a:hover {
+            color: var(--primary);
         }
 
 
-        /* =========================
-           COMMON
-        ========================= */
+        .nav-cta {
+            background: var(--primary);
+            color: white !important;
 
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            padding: 0 25px;
+            padding: 10px 18px;
+            border-radius: 10px;
         }
 
-        section {
-            padding: 90px 0;
+
+        .nav-cta:hover {
+            background: var(--primary-dark);
         }
 
-        .section-title {
-            text-align: center;
-            margin-bottom: 50px;
-        }
 
-        .section-title h2 {
-            font-size: 36px;
-            color: #111827;
-            margin-bottom: 10px;
-        }
+        .menu-btn {
+            display: none;
 
-        .section-title p {
-            color: #64748b;
-            max-width: 650px;
-            margin: auto;
+            border: none;
+            background: transparent;
+
+            font-size: 28px;
+            cursor: pointer;
+
+            color: var(--dark);
         }
 
 
         /* =========================
            HERO
-        ========================= */
+        ========================== */
 
         .hero {
-            min-height: 650px;
+            min-height: 100vh;
+
+            padding-top: 150px;
+            padding-bottom: 100px;
 
             display: flex;
             align-items: center;
 
             background:
-                radial-gradient(circle at top right,
-                #dbeafe 0,
-                transparent 35%),
-                #f8fafc;
+                radial-gradient(
+                    circle at 85% 20%,
+                    rgba(37,99,235,0.14),
+                    transparent 35%
+                ),
+
+                linear-gradient(
+                    135deg,
+                    #ffffff 0%,
+                    #f8fafc 100%
+                );
         }
 
-        .hero-content {
-            max-width: 1100px;
-            margin: auto;
 
-            padding: 70px 25px;
-
+        .hero-grid {
             display: grid;
-            grid-template-columns: 1.2fr 0.8fr;
-            gap: 60px;
+
+            grid-template-columns:
+                1.1fr
+                0.9fr;
+
+            gap: 80px;
+
             align-items: center;
         }
 
-        .hero-text .small-title {
-            color: #2563eb;
-            font-weight: 700;
+
+        .hero-small {
+            color: var(--primary);
+
+            font-size: 15px;
+            font-weight: 800;
+
+            letter-spacing: 2px;
+            text-transform: uppercase;
+
             margin-bottom: 15px;
-            font-size: 17px;
         }
 
-        .hero-text h1 {
-            font-size: 58px;
-            line-height: 1.1;
+
+        .hero h1 {
+            font-size: clamp(45px, 7vw, 75px);
+            line-height: 1.05;
             margin-bottom: 20px;
-            color: #111827;
         }
 
-        .hero-text h1 span {
-            color: #2563eb;
+
+        .hero h1 span {
+            color: var(--primary);
         }
 
-        .hero-text h2 {
+
+        .hero-role {
             font-size: 25px;
-            color: #334155;
+            font-weight: 700;
+
+            color: var(--dark-2);
+
             margin-bottom: 20px;
         }
 
-        .hero-text p {
-            color: #64748b;
-            font-size: 17px;
+
+        .hero-description {
             max-width: 650px;
+
+            color: var(--muted);
+            font-size: 17px;
+
             margin-bottom: 30px;
         }
+
 
         .hero-buttons {
             display: flex;
@@ -241,468 +399,1038 @@
             flex-wrap: wrap;
         }
 
+
         .btn {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
 
-            padding: 13px 24px;
+            padding: 13px 22px;
 
-            border-radius: 8px;
+            border-radius: 11px;
+
+            font-weight: 700;
+
+            transition: 0.3s;
+
+            border: 1px solid transparent;
+        }
+
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+
+            box-shadow:
+                0 10px 25px rgba(37,99,235,0.22);
+        }
+
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+            transform: translateY(-3px);
+        }
+
+
+        .btn-outline {
+            border-color: var(--border);
+            color: var(--dark);
+            background: white;
+        }
+
+
+        .btn-outline:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+            transform: translateY(-3px);
+        }
+
+
+        .hero-image-wrapper {
+            position: relative;
+
+            width: min(420px, 100%);
+
+            margin-left: auto;
+        }
+
+
+        .hero-image-wrapper::before {
+            content: "";
+
+            position: absolute;
+
+            inset: -20px;
+
+            border-radius: 30px;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    rgba(37,99,235,0.15),
+                    rgba(59,130,246,0.03)
+                );
+
+            z-index: 0;
+        }
+
+
+        .hero-image {
+            position: relative;
+            z-index: 1;
+
+            width: 100%;
+
+            aspect-ratio: 4 / 5;
+
+            object-fit: cover;
+
+            object-position: center;
+
+            border-radius: 25px;
+
+            border: 9px solid white;
+
+            box-shadow: var(--shadow);
+        }
+
+
+        /* =========================
+           ABOUT
+        ========================== */
+
+        .about {
+            background: var(--light);
+        }
+
+
+        .about-grid {
+            display: grid;
+
+            grid-template-columns:
+                0.9fr
+                1.1fr;
+
+            gap: 70px;
+
+            align-items: center;
+        }
+
+
+        .about-image {
+            width: 100%;
+            max-width: 420px;
+
+            margin: auto;
+
+            border-radius: var(--radius);
+
+            box-shadow: var(--shadow);
+        }
+
+
+        .about-content h3 {
+            font-size: 32px;
+            margin-bottom: 18px;
+        }
+
+
+        .about-content p {
+            color: var(--muted);
+            margin-bottom: 18px;
+        }
+
+
+        .info-grid {
+            display: grid;
+
+            grid-template-columns:
+                repeat(2, 1fr);
+
+            gap: 15px;
+
+            margin-top: 25px;
+        }
+
+
+        .info-box {
+            padding: 18px;
+
+            background: white;
+
+            border:
+                1px solid var(--border);
+
+            border-radius: 14px;
+        }
+
+
+        .info-box strong {
+            display: block;
+
+            color: var(--dark);
+
+            margin-bottom: 4px;
+        }
+
+
+        .info-box span {
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+
+        /* =========================
+           SKILLS
+        ========================== */
+
+        .skills-grid {
+            display: grid;
+
+            grid-template-columns:
+                repeat(4, 1fr);
+
+            gap: 20px;
+        }
+
+
+        .skill-card {
+            padding: 30px 22px;
+
+            border:
+                1px solid var(--border);
+
+            border-radius: var(--radius);
+
+            background: white;
+
+            text-align: center;
+
+            transition: 0.3s;
+        }
+
+
+        .skill-card:hover {
+            transform: translateY(-8px);
+
+            border-color:
+                rgba(37,99,235,0.3);
+
+            box-shadow: var(--shadow);
+        }
+
+
+        .skill-icon {
+            width: 55px;
+            height: 55px;
+
+            display: grid;
+            place-items: center;
+
+            margin: 0 auto 18px;
+
+            border-radius: 14px;
+
+            background:
+                rgba(37,99,235,0.1);
+
+            color: var(--primary);
+
+            font-size: 25px;
+
+            font-weight: 800;
+        }
+
+
+        .skill-card h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+
+        .skill-card p {
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+
+        /* =========================
+           EXPERIENCE / EDUCATION
+        ========================== */
+
+        .timeline {
+            max-width: 850px;
+            margin: auto;
+
+            position: relative;
+        }
+
+
+        .timeline::before {
+            content: "";
+
+            position: absolute;
+
+            left: 16px;
+            top: 0;
+            bottom: 0;
+
+            width: 2px;
+
+            background: #dbeafe;
+        }
+
+
+        .timeline-item {
+            position: relative;
+
+            padding-left: 60px;
+
+            margin-bottom: 45px;
+        }
+
+
+        .timeline-dot {
+            position: absolute;
+
+            left: 7px;
+            top: 6px;
+
+            width: 20px;
+            height: 20px;
+
+            border-radius: 50%;
+
+            background: var(--primary);
+
+            border: 5px solid #dbeafe;
+        }
+
+
+        .timeline-card {
+            background: white;
+
+            border:
+                1px solid var(--border);
+
+            border-radius: var(--radius);
+
+            padding: 25px;
+
+            box-shadow:
+                0 10px 30px rgba(15,23,42,0.04);
+        }
+
+
+        .timeline-card h3 {
+            font-size: 21px;
+            margin-bottom: 5px;
+        }
+
+
+        .timeline-date {
+            color: var(--primary);
+
+            font-size: 14px;
+            font-weight: 700;
+
+            margin-bottom: 12px;
+        }
+
+
+        .timeline-card p {
+            color: var(--muted);
+        }
+
+
+        /* =========================
+           PROJECTS
+        ========================== */
+
+        .projects {
+            background: var(--light);
+        }
+
+
+        .projects-grid {
+            display: grid;
+
+            grid-template-columns:
+                repeat(2, 1fr);
+
+            gap: 25px;
+        }
+
+
+        .project-card {
+            background: white;
+
+            padding: 30px;
+
+            border:
+                1px solid var(--border);
+
+            border-radius: var(--radius);
+
+            transition: 0.3s;
+        }
+
+
+        .project-card:hover {
+            transform: translateY(-7px);
+
+            box-shadow: var(--shadow);
+
+            border-color:
+                rgba(37,99,235,0.3);
+        }
+
+
+        .project-number {
+            color: var(--primary);
+
+            font-size: 14px;
+
+            font-weight: 800;
+
+            letter-spacing: 1px;
+
+            margin-bottom: 12px;
+        }
+
+
+        .project-card h3 {
+            font-size: 23px;
+            margin-bottom: 12px;
+        }
+
+
+        .project-card p {
+            color: var(--muted);
+            margin-bottom: 18px;
+        }
+
+
+        .tags {
+            display: flex;
+
+            flex-wrap: wrap;
+
+            gap: 8px;
+        }
+
+
+        .tag {
+            padding: 6px 10px;
+
+            background: #eff6ff;
+
+            color: #1d4ed8;
+
+            border-radius: 7px;
+
+            font-size: 12px;
+
+            font-weight: 700;
+        }
+
+
+        /* =========================
+           ACHIEVEMENTS
+        ========================== */
+
+        .achievement-grid {
+            display: grid;
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
+            gap: 20px;
+        }
+
+
+        .achievement {
+            padding: 30px;
+
+            border-radius: var(--radius);
+
+            border:
+                1px solid var(--border);
+
+            text-align: center;
+
+            background: white;
+
+            transition: 0.3s;
+        }
+
+
+        .achievement:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow);
+        }
+
+
+        .achievement-icon {
+            font-size: 32px;
+            margin-bottom: 12px;
+        }
+
+
+        .achievement h3 {
+            font-size: 18px;
+        }
+
+
+        /* =========================
+           PHOTOS
+        ========================== */
+
+        .photos {
+            background: var(--light);
+        }
+
+
+        .photo-intro {
+            max-width: 700px;
+            margin: -25px auto 45px;
+
+            text-align: center;
+
+            color: var(--muted);
+        }
+
+
+        .photo-grid {
+            display: grid;
+
+            grid-template-columns:
+                repeat(4, 1fr);
+
+            gap: 18px;
+        }
+
+
+        .photo-card {
+            position: relative;
+
+            overflow: hidden;
+
+            border-radius: 15px;
+
+            background: white;
+
+            aspect-ratio: 4 / 5;
+
+            box-shadow:
+                0 8px 25px rgba(15,23,42,0.06);
+        }
+
+
+        .photo-card img {
+            width: 100%;
+            height: 100%;
+
+            object-fit: cover;
+
+            transition: transform 0.5s ease;
+        }
+
+
+        .photo-card:hover img {
+            transform: scale(1.07);
+        }
+
+
+        .photo-caption {
+            position: absolute;
+
+            left: 0;
+            right: 0;
+            bottom: 0;
+
+            padding: 25px 15px 14px;
+
+            color: white;
+
+            font-size: 13px;
+
+            font-weight: 600;
+
+            background:
+                linear-gradient(
+                    transparent,
+                    rgba(0,0,0,0.7)
+                );
+        }
+
+
+        /* =========================
+           CONTACT
+        ========================== */
+
+        .contact {
+            background:
+                linear-gradient(
+                    135deg,
+                    #0f172a,
+                    #172554
+                );
+
+            color: white;
+        }
+
+
+        .contact .section-heading h2,
+        .contact .section-heading p {
+            color: white;
+        }
+
+
+        .contact .section-heading p {
+            opacity: 0.7;
+        }
+
+
+        .contact-grid {
+            display: grid;
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
+            gap: 20px;
+        }
+
+
+        .contact-card {
+            padding: 30px 20px;
+
+            border:
+                1px solid rgba(255,255,255,0.1);
+
+            border-radius: var(--radius);
+
+            text-align: center;
+
+            background:
+                rgba(255,255,255,0.05);
+
+            transition: 0.3s;
+        }
+
+
+        .contact-card:hover {
+            background:
+                rgba(255,255,255,0.1);
+
+            transform: translateY(-5px);
+        }
+
+
+        .contact-icon {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+
+        .contact-card h3 {
+            color: white;
+            margin-bottom: 6px;
+        }
+
+
+        .contact-card a {
+            color: #bfdbfe;
+            word-break: break-word;
+        }
+
+
+        /* =========================
+           FOOTER
+        ========================== */
+
+        footer {
+            background: #020617;
+
+            color: #94a3b8;
+
+            padding: 30px 0;
+        }
+
+
+        .footer-content {
+            display: flex;
+
+            align-items: center;
+
+            justify-content: space-between;
+
+            gap: 20px;
+
+            flex-wrap: wrap;
+        }
+
+
+        .footer-brand {
+            color: white;
+
+            font-family: "Poppins", sans-serif;
+
+            font-size: 20px;
+
+            font-weight: 800;
+        }
+
+
+        .footer-brand span {
+            color: var(--primary);
+        }
+
+
+        .social-links {
+            display: flex;
+            gap: 10px;
+        }
+
+
+        .social-links a {
+            width: 40px;
+            height: 40px;
+
+            display: grid;
+            place-items: center;
+
+            border-radius: 10px;
+
+            background: rgba(255,255,255,0.06);
+
+            color: white;
+
+            font-size: 13px;
 
             font-weight: 700;
 
             transition: 0.3s;
         }
 
-        .btn-primary {
-            background: #2563eb;
-            color: white;
-        }
-
-        .btn-primary:hover {
-            background: #1d4ed8;
-            transform: translateY(-2px);
-        }
-
-        .btn-secondary {
-            border: 1px solid #cbd5e1;
-            background: white;
-            color: #334155;
-        }
-
-        .btn-secondary:hover {
-            border-color: #2563eb;
-            color: #2563eb;
-        }
-
-        .hero-image {
-            display: flex;
-            justify-content: center;
-        }
-
-        .hero-image img {
-            width: 330px;
-            height: 390px;
-
-            object-fit: cover;
-
-            border-radius: 25px;
-
-            border: 8px solid white;
-
-            box-shadow:
-                0 25px 60px rgba(15, 23, 42, 0.18);
-        }
-
-
-        /* =========================
-           ABOUT
-        ========================= */
-
-        .about {
-            background: white;
-        }
-
-        .about-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 50px;
-            align-items: center;
-        }
-
-        .about-image img {
-            width: 100%;
-            max-width: 450px;
-            height: 480px;
-
-            object-fit: cover;
-
-            border-radius: 20px;
-
-            margin: auto;
-        }
-
-        .about-text h3 {
-            font-size: 30px;
-            margin-bottom: 18px;
-            color: #111827;
-        }
-
-        .about-text p {
-            color: #64748b;
-            margin-bottom: 18px;
-        }
-
-        .info-list {
-            list-style: none;
-            margin-top: 25px;
-        }
-
-        .info-list li {
-            margin-bottom: 12px;
-            color: #475569;
-        }
-
-        .info-list strong {
-            color: #111827;
-        }
-
-
-        /* =========================
-           SKILLS
-        ========================= */
-
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 20px;
-        }
-
-        .skill-card {
-            background: white;
-
-            padding: 30px 20px;
-
-            text-align: center;
-
-            border-radius: 15px;
-
-            border: 1px solid #e5e7eb;
-
-            transition: 0.3s;
-        }
-
-        .skill-card:hover {
-            transform: translateY(-7px);
-
-            border-color: #bfdbfe;
-
-            box-shadow: 0 15px 35px rgba(15, 23, 42, 0.08);
-        }
-
-        .skill-icon {
-            font-size: 35px;
-            margin-bottom: 12px;
-        }
-
-        .skill-card h3 {
-            font-size: 18px;
-            color: #1e293b;
-        }
-
-
-        /* =========================
-           PROJECTS
-        ========================= */
-
-        .projects {
-            background: white;
-        }
-
-        .projects-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 25px;
-        }
-
-        .project-card {
-            padding: 30px;
-
-            border: 1px solid #e5e7eb;
-
-            border-radius: 16px;
-
-            background: #ffffff;
-
-            transition: 0.3s;
-        }
-
-        .project-card:hover {
-            transform: translateY(-5px);
-
-            box-shadow:
-                0 20px 40px rgba(15, 23, 42, 0.08);
-        }
-
-        .project-card h3 {
-            font-size: 23px;
-            margin-bottom: 12px;
-            color: #111827;
-        }
-
-        .project-card p {
-            color: #64748b;
-            margin-bottom: 18px;
-        }
-
-        .tech-stack {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-        }
-
-        .tech {
-            background: #eff6ff;
-            color: #1d4ed8;
-
-            padding: 6px 11px;
-
-            border-radius: 20px;
-
-            font-size: 13px;
-            font-weight: 600;
-        }
-
-
-        /* =========================
-           GALLERY
-        ========================= */
-
-        .gallery-grid {
-            display: grid;
-
-            grid-template-columns:
-                repeat(3, 1fr);
-
-            gap: 18px;
-        }
-
-        .gallery-item {
-            overflow: hidden;
-
-            border-radius: 15px;
-
-            height: 350px;
-
-            background: #e2e8f0;
-        }
-
-        .gallery-item img {
-            width: 100%;
-            height: 100%;
-
-            object-fit: cover;
-
-            transition: 0.5s;
-        }
-
-        .gallery-item:hover img {
-            transform: scale(1.06);
-        }
-
-
-        /* =========================
-           CONTACT
-        ========================= */
-
-        .contact {
-            background: #111827;
-            color: white;
-        }
-
-        .contact .section-title h2 {
-            color: white;
-        }
-
-        .contact .section-title p {
-            color: #94a3b8;
-        }
-
-        .contact-box {
-            max-width: 750px;
-            margin: auto;
-
-            text-align: center;
-        }
-
-        .contact-box p {
-            color: #cbd5e1;
-            margin-bottom: 25px;
-        }
-
-        .social-links {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-
-        .social-links a {
-            padding: 12px 20px;
-
-            border: 1px solid #475569;
-
-            border-radius: 8px;
-
-            color: white;
-
-            transition: 0.3s;
-        }
 
         .social-links a:hover {
-            background: #2563eb;
-            border-color: #2563eb;
+            background: var(--primary);
+
+            transform: translateY(-3px);
         }
 
 
         /* =========================
-           FOOTER
-        ========================= */
+           SCROLL ANIMATION
+        ========================== */
 
-        footer {
-            background: #0f172a;
+        .reveal {
+            opacity: 0;
 
-            color: #94a3b8;
+            transform: translateY(25px);
 
-            text-align: center;
-
-            padding: 25px;
+            transition:
+                opacity 0.7s ease,
+                transform 0.7s ease;
         }
 
-        footer strong {
-            color: white;
+
+        .reveal.active {
+            opacity: 1;
+
+            transform: translateY(0);
         }
 
 
         /* =========================
            RESPONSIVE
-        ========================= */
+        ========================== */
 
-        @media (max-width: 900px) {
+        @media (max-width: 950px) {
 
-            .hero-content {
+            .hero-grid,
+            .about-grid {
                 grid-template-columns: 1fr;
+
+                gap: 50px;
+            }
+
+
+            .hero {
                 text-align: center;
             }
 
-            .hero-text p {
+
+            .hero-description {
                 margin-left: auto;
                 margin-right: auto;
             }
+
 
             .hero-buttons {
                 justify-content: center;
             }
 
-            .about-grid {
-                grid-template-columns: 1fr;
+
+            .hero-image-wrapper {
+                margin: auto;
+                max-width: 370px;
             }
+
 
             .skills-grid {
-                grid-template-columns: repeat(2, 1fr);
+                grid-template-columns:
+                    repeat(2, 1fr);
             }
 
-            .gallery-grid {
-                grid-template-columns: repeat(2, 1fr);
+
+            .photo-grid {
+                grid-template-columns:
+                    repeat(3, 1fr);
             }
         }
 
 
-        @media (max-width: 600px) {
+        @media (max-width: 700px) {
 
-            nav {
+            section {
+                padding: 75px 0;
+            }
+
+
+            .menu-btn {
+                display: block;
+            }
+
+
+            .nav-links {
+                position: absolute;
+
+                top: 76px;
+                left: 0;
+
+                width: 100%;
+
+                background: white;
+
+                flex-direction: column;
+
+                align-items: flex-start;
+
+                padding: 25px;
+
+                gap: 18px;
+
+                border-bottom:
+                    1px solid var(--border);
+
+                box-shadow:
+                    0 20px 30px rgba(0,0,0,0.06);
+
                 display: none;
             }
 
-            .hero-text h1 {
-                font-size: 42px;
+
+            .nav-links.active {
+                display: flex;
             }
 
-            .hero-text h2 {
-                font-size: 21px;
-            }
 
-            section {
-                padding: 65px 0;
-            }
-
-            .section-title h2 {
-                font-size: 30px;
-            }
-
-            .skills-grid,
-            .projects-grid,
-            .gallery-grid {
+            .projects-grid {
                 grid-template-columns: 1fr;
             }
 
-            .gallery-item {
-                height: 420px;
+
+            .achievement-grid {
+                grid-template-columns: 1fr;
             }
 
-            .hero-image img {
-                width: 280px;
-                height: 340px;
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+
+            .photo-grid {
+                grid-template-columns:
+                    repeat(2, 1fr);
+            }
+
+
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+
+
+            .footer-content {
+                flex-direction: column;
+
+                text-align: center;
+            }
+        }
+
+
+        @media (max-width: 450px) {
+
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+
+
+            .photo-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+
+            .hero h1 {
+                font-size: 43px;
+            }
+
+
+            .hero-role {
+                font-size: 21px;
             }
         }
 
     </style>
+
 </head>
 
 
 <body>
 
+
 <!-- =========================
-     HEADER
-========================= -->
+     NAVBAR
+========================== -->
 
 <header>
 
-    <div class="navbar">
+    <div class="container navbar">
 
-        <a href="#home" class="logo">
+        <a href="#home"
+           class="logo"
+           aria-label="Yash Saini Home">
+
             Yash<span>.</span>
+
         </a>
 
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#gallery">Photos</a>
-            <a href="#contact">Contact</a>
-        </nav>
+
+        <button
+            class="menu-btn"
+            id="menuBtn"
+            aria-label="Open navigation menu">
+
+            ☰
+
+        </button>
+
+
+        <ul class="nav-links" id="navLinks">
+
+            <li>
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#experience">Education</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#photos">Photos</a>
+            </li>
+
+            <li>
+                <a href="#contact"
+                   class="nav-cta">
+
+                    Contact
+
+                </a>
+            </li>
+
+        </ul>
 
     </div>
 
 </header>
 
 
+
 <!-- =========================
      HERO
-========================= -->
+========================== -->
+
+<main>
 
 <section class="hero" id="home">
 
-    <div class="hero-content">
+    <div class="container hero-grid">
 
-        <div class="hero-text">
+        <div class="hero-content reveal">
 
-            <div class="small-title">
-                HELLO, I'M
+            <div class="hero-small">
+                Hello, I'm
             </div>
+
 
             <h1>
                 Yash <span>Saini</span>
             </h1>
 
-            <h2>
-                Full Stack Java Developer
-            </h2>
 
-            <p>
+            <div class="hero-role">
+                Full Stack Java Developer
+            </div>
+
+
+            <p class="hero-description">
+
                 I build scalable and user-focused web applications
                 using Java, Spring Boot, React.js and MySQL.
                 I enjoy solving real-world problems through technology.
+
             </p>
+
 
             <div class="hero-buttons">
 
-                <a href="#projects" class="btn btn-primary">
-                    View My Work
+                <a href="#projects"
+                   class="btn btn-primary">
+
+                    View My Work →
+
                 </a>
 
-                <a href="#contact" class="btn btn-secondary">
+
+                <a href="#contact"
+                   class="btn btn-outline">
+
                     Contact Me
+
+                </a>
+
+
+                <a href="Yash_Grad.pdf"
+                   class="btn btn-outline"
+                   download>
+
+                    Download Resume
+
                 </a>
 
             </div>
@@ -710,12 +1438,16 @@
         </div>
 
 
-        <div class="hero-image">
+
+        <div class="hero-image-wrapper reveal">
 
             <img
                 src="yash-saini-profile.jpeg"
                 alt="Yash Saini Full Stack Java Developer"
-            >
+                title="Yash Saini - Full Stack Java Developer"
+                class="hero-image"
+                loading="eager"
+                fetchpriority="high">
 
         </div>
 
@@ -724,21 +1456,24 @@
 </section>
 
 
+
 <!-- =========================
      ABOUT
-========================= -->
+========================== -->
 
-<section class="about" id="about">
+<section id="about">
 
     <div class="container">
 
-        <div class="section-title">
+        <div class="section-heading reveal">
 
-            <h2>About Me</h2>
+            <span>About Me</span>
+
+            <h2>Building With Purpose</h2>
 
             <p>
-                Get to know more about me, my technical background
-                and what I enjoy building.
+                A developer focused on creating reliable,
+                scalable and user-friendly applications.
             </p>
 
         </div>
@@ -746,63 +1481,91 @@
 
         <div class="about-grid">
 
-            <div class="about-image">
+            <div class="reveal">
 
                 <img
-                    src="yash-saini-java-developer.jpeg"
-                    alt="Yash Saini Java Developer"
-                >
+                    src="yash-saini-developer.jpeg"
+                    alt="Yash Saini developer portrait"
+                    title="Yash Saini Developer"
+                    class="about-image"
+                    loading="lazy">
 
             </div>
 
 
-            <div class="about-text">
+            <div class="about-content reveal">
 
                 <h3>
-                    Building applications with code & creativity.
+                    Full Stack Developer with a passion for technology.
                 </h3>
 
-                <p>
-                    I am Yash Saini, a Full Stack Java Developer
-                    passionate about creating modern, scalable and
-                    user-friendly web applications.
-                </p>
 
                 <p>
-                    My primary technologies include Java, Spring Boot,
-                    React.js and MySQL. I also work with REST APIs,
-                    JavaScript, Git and GitHub.
-                </p>
-
-                <p>
-                    I continuously improve my problem-solving and
-                    development skills by building real-world projects.
+                    I am a Full Stack Developer with hands-on
+                    experience in building web applications using
+                    Spring Boot and React.js.
                 </p>
 
 
-                <ul class="info-list">
+                <p>
+                    My work includes REST API development,
+                    CRUD functionality, database integration,
+                    responsive interfaces and application debugging.
+                </p>
 
-                    <li>
-                        <strong>Role:</strong>
-                        Full Stack Java Developer
-                    </li>
 
-                    <li>
-                        <strong>Backend:</strong>
-                        Java & Spring Boot
-                    </li>
+                <p>
+                    I also have experience working with AI-powered
+                    automation and modern AI tools.
+                </p>
 
-                    <li>
-                        <strong>Frontend:</strong>
-                        React.js & JavaScript
-                    </li>
 
-                    <li>
-                        <strong>Database:</strong>
-                        MySQL
-                    </li>
+                <div class="info-grid">
 
-                </ul>
+                    <div class="info-box">
+
+                        <strong>Specialization</strong>
+
+                        <span>
+                            Java & Spring Boot
+                        </span>
+
+                    </div>
+
+
+                    <div class="info-box">
+
+                        <strong>Frontend</strong>
+
+                        <span>
+                            React.js
+                        </span>
+
+                    </div>
+
+
+                    <div class="info-box">
+
+                        <strong>Database</strong>
+
+                        <span>
+                            MySQL & SQL
+                        </span>
+
+                    </div>
+
+
+                    <div class="info-box">
+
+                        <strong>Location</strong>
+
+                        <span>
+                            Haryana, India
+                        </span>
+
+                    </div>
+
+                </div>
 
             </div>
 
@@ -813,21 +1576,25 @@
 </section>
 
 
+
 <!-- =========================
      SKILLS
-========================= -->
+========================== -->
 
-<section id="skills">
+<section id="skills"
+         style="background:#f8fafc;">
 
     <div class="container">
 
-        <div class="section-title">
+        <div class="section-heading reveal">
+
+            <span>My Expertise</span>
 
             <h2>Technical Skills</h2>
 
             <p>
-                Technologies and tools I use to build full-stack
-                web applications.
+                Technologies and tools I use to build
+                modern applications.
             </p>
 
         </div>
@@ -835,44 +1602,138 @@
 
         <div class="skills-grid">
 
-            <div class="skill-card">
-                <div class="skill-icon">☕</div>
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    ☕
+                </div>
+
                 <h3>Java</h3>
+
+                <p>
+                    Core Java, OOP,
+                    exception handling and
+                    application development.
+                </p>
+
             </div>
 
-            <div class="skill-card">
-                <div class="skill-icon">⚙️</div>
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    SB
+                </div>
+
                 <h3>Spring Boot</h3>
+
+                <p>
+                    REST APIs, backend logic,
+                    CRUD operations and
+                    application architecture.
+                </p>
+
             </div>
 
-            <div class="skill-card">
-                <div class="skill-icon">⚛️</div>
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    ⚛
+                </div>
+
                 <h3>React.js</h3>
+
+                <p>
+                    Responsive interfaces,
+                    reusable components and
+                    modern frontend development.
+                </p>
+
             </div>
 
-            <div class="skill-card">
-                <div class="skill-icon">🗄️</div>
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    DB
+                </div>
+
                 <h3>MySQL</h3>
+
+                <p>
+                    Database design,
+                    CRUD operations and
+                    data management.
+                </p>
+
             </div>
 
-            <div class="skill-card">
-                <div class="skill-icon">🌐</div>
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    API
+                </div>
+
                 <h3>REST APIs</h3>
+
+                <p>
+                    Designing and consuming
+                    client-server APIs.
+                </p>
+
             </div>
 
-            <div class="skill-card">
-                <div class="skill-icon">🟨</div>
-                <h3>JavaScript</h3>
-            </div>
 
-            <div class="skill-card">
-                <div class="skill-icon">🔧</div>
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    Git
+                </div>
+
                 <h3>Git & GitHub</h3>
+
+                <p>
+                    Version control,
+                    repositories and
+                    collaborative development.
+                </p>
+
             </div>
 
-            <div class="skill-card">
-                <div class="skill-icon">🎨</div>
-                <h3>HTML & CSS</h3>
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    AI
+                </div>
+
+                <h3>Generative AI</h3>
+
+                <p>
+                    AI APIs, LLMs,
+                    AI-powered applications
+                    and automation.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    n8n
+                </div>
+
+                <h3>AI Automation</h3>
+
+                <p>
+                    AI agents, workflows,
+                    webhooks and automation.
+                </p>
+
             </div>
 
         </div>
@@ -882,20 +1743,134 @@
 </section>
 
 
-<!-- =========================
-     PROJECTS
-========================= -->
 
-<section class="projects" id="projects">
+<!-- =========================
+     EDUCATION
+========================== -->
+
+<section id="experience">
 
     <div class="container">
 
-        <div class="section-title">
+        <div class="section-heading reveal">
 
-            <h2>My Projects</h2>
+            <span>My Journey</span>
+
+            <h2>Education & Development</h2>
 
             <p>
-                Some of the full-stack applications I have worked on.
+                My academic journey and professional development.
+            </p>
+
+        </div>
+
+
+        <div class="timeline">
+
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card">
+
+                    <div class="timeline-date">
+                        2021 – 2025
+                    </div>
+
+                    <h3>
+                        B.Tech in Computer Science & Engineering
+                    </h3>
+
+                    <p>
+                        Chandigarh Group of Colleges,
+                        Landran, Punjab.
+                    </p>
+
+                    <p>
+                        CGPA: <strong>8.60</strong>
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card">
+
+                    <div class="timeline-date">
+                        Professional Development
+                    </div>
+
+                    <h3>
+                        Full Stack Development
+                    </h3>
+
+                    <p>
+                        Hands-on development with Java,
+                        Spring Boot, React.js, REST APIs,
+                        MySQL, Git and Postman.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card">
+
+                    <div class="timeline-date">
+                        AI Development
+                    </div>
+
+                    <h3>
+                        AI Chatbot & Automation
+                    </h3>
+
+                    <p>
+                        Built AI-powered automation workflows
+                        using n8n, OpenAI/Gemini APIs,
+                        AI agents, webhooks and REST APIs.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     PROJECTS
+========================== -->
+
+<section class="projects"
+         id="projects">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span>My Work</span>
+
+            <h2>Featured Projects</h2>
+
+            <p>
+                A selection of applications and systems
+                I have worked on.
             </p>
 
         </div>
@@ -904,90 +1879,185 @@
         <div class="projects-grid">
 
 
-            <div class="project-card">
+            <article class="project-card reveal">
 
-                <h3>Job Portal</h3>
+                <div class="project-number">
+                    PROJECT 01
+                </div>
+
+                <h3>
+                    Cognivanta
+                </h3>
 
                 <p>
-                    A full-stack job portal where users can explore
-                    jobs and submit applications. The backend is built
-                    using Spring Boot and the frontend using React.js.
+                    Full-stack application developed using
+                    React.js and Spring Boot with REST APIs,
+                    MySQL database integration and responsive UI.
                 </p>
 
-                <div class="tech-stack">
+                <div class="tags">
 
-                    <span class="tech">Java</span>
-                    <span class="tech">Spring Boot</span>
-                    <span class="tech">React.js</span>
-                    <span class="tech">MySQL</span>
-                    <span class="tech">REST API</span>
+                    <span class="tag">Java</span>
+                    <span class="tag">Spring Boot</span>
+                    <span class="tag">React.js</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">REST API</span>
 
                 </div>
+
+            </article>
+
+
+
+            <article class="project-card reveal">
+
+                <div class="project-number">
+                    PROJECT 02
+                </div>
+
+                <h3>
+                    Expense Tracker Application
+                </h3>
+
+                <p>
+                    Java-based application for recording,
+                    categorizing and managing daily expenses
+                    with JDBC and MySQL.
+                </p>
+
+                <div class="tags">
+
+                    <span class="tag">Java Core</span>
+                    <span class="tag">JDBC</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">Maven</span>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="project-card reveal">
+
+                <div class="project-number">
+                    PROJECT 03
+                </div>
+
+                <h3>
+                    Avain Labs International
+                </h3>
+
+                <p>
+                    Ongoing full-stack project with React.js
+                    frontend, Spring Boot backend and MySQL
+                    database for product and category management.
+                </p>
+
+                <div class="tags">
+
+                    <span class="tag">React.js</span>
+                    <span class="tag">Spring Boot</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">JWT</span>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="project-card reveal">
+
+                <div class="project-number">
+                    PROJECT 04
+                </div>
+
+                <h3>
+                    AI Chatbot Automation Platform
+                </h3>
+
+                <p>
+                    AI-powered chatbot automation platform
+                    integrating LLMs, AI agents, chat memory,
+                    REST APIs, webhooks and automated workflows.
+                </p>
+
+                <div class="tags">
+
+                    <span class="tag">n8n</span>
+                    <span class="tag">OpenAI</span>
+                    <span class="tag">Gemini</span>
+                    <span class="tag">AI Agents</span>
+                    <span class="tag">Webhooks</span>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     ACHIEVEMENTS
+========================== -->
+
+<section>
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span>Achievements</span>
+
+            <h2>Things I'm Proud Of</h2>
+
+        </div>
+
+
+        <div class="achievement-grid">
+
+
+            <div class="achievement reveal">
+
+                <div class="achievement-icon">
+                    🏆
+                </div>
+
+                <h3>
+                    SAP Hackfest Finalist
+                </h3>
 
             </div>
 
 
-            <div class="project-card">
+            <div class="achievement reveal">
 
-                <h3>Skill Sidekick</h3>
-
-                <p>
-                    A full-stack educational platform designed to
-                    provide users with an interactive learning
-                    experience.
-                </p>
-
-                <div class="tech-stack">
-
-                    <span class="tech">React.js</span>
-                    <span class="tech">Node.js</span>
-                    <span class="tech">Express.js</span>
-                    <span class="tech">MongoDB</span>
-
+                <div class="achievement-icon">
+                    🥇
                 </div>
+
+                <h3>
+                    Winner — TECHATHON 2.0
+                </h3>
 
             </div>
 
 
-            <div class="project-card">
+            <div class="achievement reveal">
 
-                <h3>Rameshwar Scientific Industries</h3>
-
-                <p>
-                    An e-commerce website created to showcase products
-                    and provide a professional online presence for
-                    the business.
-                </p>
-
-                <div class="tech-stack">
-
-                    <span class="tech">HTML</span>
-                    <span class="tech">CSS</span>
-                    <span class="tech">JavaScript</span>
-
+                <div class="achievement-icon">
+                    💻
                 </div>
 
-            </div>
-
-
-            <div class="project-card">
-
-                <h3>Developer Portfolio</h3>
-
-                <p>
-                    A personal developer portfolio designed to showcase
-                    my skills, projects, professional background and
-                    online presence.
-                </p>
-
-                <div class="tech-stack">
-
-                    <span class="tech">HTML</span>
-                    <span class="tech">CSS</span>
-                    <span class="tech">JavaScript</span>
-                    <span class="tech">GitHub Pages</span>
-
-                </div>
+                <h3>
+                    Winner — Web Designing Competition
+                </h3>
 
             </div>
 
@@ -996,151 +2066,356 @@
     </div>
 
 </section>
+
 
 
 <!-- =========================
      PHOTO GALLERY
-========================= -->
+========================== -->
 
-<section id="gallery">
+<section class="photos"
+         id="photos">
 
     <div class="container">
 
-        <div class="section-title">
+        <div class="section-heading reveal">
 
-            <h2>My Photos</h2>
+            <span>Gallery</span>
 
-            <p>
-                A collection of professional and personal photographs
-                of Yash Saini.
-            </p>
+            <h2>Yash Saini — Photos</h2>
 
         </div>
 
 
-        <div class="gallery-grid">
+        <p class="photo-intro">
+            A collection of professional, personal and
+            developer-focused photographs of Yash Saini.
+        </p>
 
 
-            <div class="gallery-item">
+        <div class="photo-grid">
+
+
+            <figure class="photo-card reveal">
 
                 <img
                     src="yash-saini-profile.jpeg"
-                    alt="Yash Saini profile photo"
-                    loading="lazy"
-                >
+                    alt="Yash Saini professional profile photograph"
+                    title="Yash Saini Professional Profile"
+                    loading="lazy">
 
-            </div>
+                <figcaption class="photo-caption">
+                    Yash Saini — Professional Profile
+                </figcaption>
+
+            </figure>
 
 
-            <div class="gallery-item">
+            <figure class="photo-card reveal">
 
                 <img
                     src="yash-saini-developer.jpeg"
-                    alt="Yash Saini professional developer photo"
-                    loading="lazy"
-                >
+                    alt="Yash Saini developer photograph"
+                    title="Yash Saini Developer"
+                    loading="lazy">
 
-            </div>
+                <figcaption class="photo-caption">
+                    Yash Saini — Developer
+                </figcaption>
+
+            </figure>
 
 
-            <div class="gallery-item">
+            <figure class="photo-card reveal">
 
                 <img
                     src="yash-saini-java-developer.jpeg"
-                    alt="Yash Saini Java Developer"
-                    loading="lazy"
-                >
+                    alt="Yash Saini Java developer photograph"
+                    title="Yash Saini Java Developer"
+                    loading="lazy">
 
-            </div>
+                <figcaption class="photo-caption">
+                    Yash Saini — Java Developer
+                </figcaption>
+
+            </figure>
 
 
-            <div class="gallery-item">
+            <figure class="photo-card reveal">
 
                 <img
                     src="yash-saini-photo.jpeg"
-                    alt="Yash Saini professional photograph"
-                    loading="lazy"
-                >
+                    alt="Yash Saini portrait photograph"
+                    title="Yash Saini Portrait"
+                    loading="lazy">
 
-            </div>
+                <figcaption class="photo-caption">
+                    Yash Saini — Portrait
+                </figcaption>
+
+            </figure>
 
 
-            <div class="gallery-item">
+            <figure class="photo-card reveal">
 
                 <img
                     src="yash-saini-office.jpeg"
-                    alt="Yash Saini professional office photo"
-                    loading="lazy"
-                >
+                    alt="Yash Saini professional office photograph"
+                    title="Yash Saini Office Photograph"
+                    loading="lazy">
 
-            </div>
+                <figcaption class="photo-caption">
+                    Yash Saini — Professional
+                </figcaption>
+
+            </figure>
 
 
-            <div class="gallery-item">
+            <figure class="photo-card reveal">
 
                 <img
                     src="yash-saini-instagram.jpeg"
-                    alt="Yash Saini Instagram photograph"
-                    loading="lazy"
-                >
+                    alt="Yash Saini social profile photograph"
+                    title="Yash Saini Instagram Photo"
+                    loading="lazy">
 
-            </div>
+                <figcaption class="photo-caption">
+                    Yash Saini — Social Profile
+                </figcaption>
+
+            </figure>
+
+
+            <figure class="photo-card reveal">
+
+                <img
+                    src="yash-saini-insta.jpeg"
+                    alt="Yash Saini outdoor photograph"
+                    title="Yash Saini Outdoor Photo"
+                    loading="lazy">
+
+                <figcaption class="photo-caption">
+                    Yash Saini — Outdoor
+                </figcaption>
+
+            </figure>
+
+
+            <figure class="photo-card reveal">
+
+                <img
+                    src="kurta.jpeg"
+                    alt="Yash Saini wearing a black kurta"
+                    title="Yash Saini Black Kurta"
+                    loading="lazy">
+
+                <figcaption class="photo-caption">
+                    Yash Saini — Traditional Look
+                </figcaption>
+
+            </figure>
+
+
+            <figure class="photo-card reveal">
+
+                <img
+                    src="kurta-pajama.jpeg"
+                    alt="Yash Saini wearing kurta pajama"
+                    title="Yash Saini Kurta Pajama"
+                    loading="lazy">
+
+                <figcaption class="photo-caption">
+                    Yash Saini — Kurta Pajama
+                </figcaption>
+
+            </figure>
+
+
+            <figure class="photo-card reveal">
+
+                <img
+                    src="pathani.jpeg"
+                    alt="Yash Saini wearing Pathani outfit"
+                    title="Yash Saini Pathani Outfit"
+                    loading="lazy">
+
+                <figcaption class="photo-caption">
+                    Yash Saini — Pathani Look
+                </figcaption>
+
+            </figure>
+
+
+            <figure class="photo-card reveal">
+
+                <img
+                    src="sainiyash.jpeg"
+                    alt="Yash Saini portrait in formal outfit"
+                    title="Yash Saini Formal Portrait"
+                    loading="lazy">
+
+                <figcaption class="photo-caption">
+                    Yash Saini — Formal Portrait
+                </figcaption>
+
+            </figure>
+
+
+            <figure class="photo-card reveal">
+
+                <img
+                    src="village yash.jpeg"
+                    alt="Yash Saini outdoor village photograph"
+                    title="Yash Saini Outdoor Photograph"
+                    loading="lazy">
+
+                <figcaption class="photo-caption">
+                    Yash Saini — Outdoor Photograph
+                </figcaption>
+
+            </figure>
 
         </div>
 
     </div>
 
 </section>
+
 
 
 <!-- =========================
      CONTACT
-========================= -->
+========================== -->
 
-<section class="contact" id="contact">
+<section class="contact"
+         id="contact">
 
     <div class="container">
 
-        <div class="section-title">
+        <div class="section-heading reveal">
+
+            <span>Get In Touch</span>
 
             <h2>Let's Connect</h2>
 
             <p>
-                Interested in working together or discussing
-                a development opportunity? Feel free to connect.
+                Have an opportunity, project or idea?
+                Feel free to reach out.
             </p>
 
         </div>
 
 
-        <div class="contact-box">
-
-            <p>
-                I am open to Full Stack Java Developer,
-                Java Developer and Software Development opportunities.
-            </p>
+        <div class="contact-grid">
 
 
-            <div class="social-links">
+            <div class="contact-card reveal">
 
-                <!-- Replace these links with your actual profiles -->
+                <div class="contact-icon">
+                    ✉
+                </div>
 
-                <a href="https://github.com/sainiyash24"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    GitHub
+                <h3>Email</h3>
+
+                <a href="mailto:sainiyash5678@gmail.com">
+
+                    sainiyash5678@gmail.com
+
                 </a>
 
-                <a href="https://www.linkedin.com/"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    LinkedIn
+            </div>
+
+
+            <div class="contact-card reveal">
+
+                <div class="contact-icon">
+                    ☎
+                </div>
+
+                <h3>Phone</h3>
+
+                <a href="tel:+919729760902">
+
+                    +91 9729760902
+
                 </a>
 
-                <a href="https://www.instagram.com/"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    Instagram
+            </div>
+
+
+            <div class="contact-card reveal">
+
+                <div class="contact-icon">
+                    in
+                </div>
+
+                <h3>LinkedIn</h3>
+
+                <a
+                    href="https://www.linkedin.com/in/yash-saini-cse/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    Connect on LinkedIn
+
+                </a>
+
+            </div>
+
+
+            <div class="contact-card reveal">
+
+                <div class="contact-icon">
+                    ◎
+                </div>
+
+                <h3>Instagram</h3>
+
+                <a
+                    href="https://www.instagram.com/yash.saini._/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    Follow on Instagram
+
+                </a>
+
+            </div>
+
+
+            <div class="contact-card reveal">
+
+                <div class="contact-icon">
+                    GH
+                </div>
+
+                <h3>GitHub</h3>
+
+                <a
+                    href="https://github.com/sainiyash24"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    View GitHub Profile
+
+                </a>
+
+            </div>
+
+
+            <div class="contact-card reveal">
+
+                <div class="contact-icon">
+                    CV
+                </div>
+
+                <h3>Resume</h3>
+
+                <a href="Yash_Grad.pdf"
+                   download>
+
+                    Download Resume
+
                 </a>
 
             </div>
@@ -1151,24 +2426,169 @@
 
 </section>
 
+</main>
+
+
 
 <!-- =========================
      FOOTER
-========================= -->
+========================== -->
 
 <footer>
 
-    <p>
-        © 2026 <strong>Yash Saini</strong>.
-        All Rights Reserved.
-    </p>
+    <div class="container footer-content">
 
-    <p>
-        Full Stack Java Developer | Java | Spring Boot | React.js | MySQL
-    </p>
+        <div>
+
+            <div class="footer-brand">
+                Yash<span>.</span>
+            </div>
+
+            <p>
+                Full Stack Java Developer
+            </p>
+
+        </div>
+
+
+        <div>
+
+            © 2026 Yash Saini.
+            All Rights Reserved.
+
+        </div>
+
+
+        <div class="social-links">
+
+            <a
+                href="https://www.linkedin.com/in/yash-saini-cse/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Yash Saini LinkedIn">
+
+                in
+
+            </a>
+
+
+            <a
+                href="https://www.instagram.com/yash.saini._/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Yash Saini Instagram">
+
+                IG
+
+            </a>
+
+
+            <a
+                href="https://github.com/sainiyash24"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Yash Saini GitHub">
+
+                GH
+
+            </a>
+
+        </div>
+
+    </div>
 
 </footer>
 
 
+
+<!-- =========================
+     JAVASCRIPT
+========================== -->
+
+<script>
+
+    /* =========================
+       MOBILE MENU
+    ========================== */
+
+    const menuBtn =
+        document.getElementById("menuBtn");
+
+    const navLinks =
+        document.getElementById("navLinks");
+
+
+    menuBtn.addEventListener(
+        "click",
+        () => {
+
+            navLinks.classList.toggle("active");
+
+        }
+    );
+
+
+    /* Close mobile menu
+       after clicking a link */
+
+    document
+        .querySelectorAll(".nav-links a")
+        .forEach(link => {
+
+            link.addEventListener(
+                "click",
+                () => {
+
+                    navLinks.classList.remove("active");
+
+                }
+            );
+
+        });
+
+
+
+    /* =========================
+       SCROLL REVEAL
+    ========================== */
+
+    const observer =
+        new IntersectionObserver(
+            entries => {
+
+                entries.forEach(
+                    entry => {
+
+                        if (entry.isIntersecting) {
+
+                            entry.target
+                                .classList
+                                .add("active");
+
+                        }
+
+                    }
+                );
+
+            },
+
+            {
+                threshold: 0.12
+            }
+        );
+
+
+    document
+        .querySelectorAll(".reveal")
+        .forEach(element => {
+
+            observer.observe(element);
+
+        });
+
+</script>
+
+
 </body>
+
 </html>
