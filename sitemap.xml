@@ -1,10 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://sainiyash24.github.io/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
 
-    <url>
-        <loc>https://sainiyash24.github.io/</loc>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
+    <image:image>
+      <image:loc>https://sainiyash24.github.io/yash-saini-profile.jpeg</image:loc>
+      <image:title>Yash Saini - Full Stack Java Developer</image:title>
+      <image:caption>Yash Saini professional profile photo</image:caption>
+    </image:image>
 
+    <image:image>
+      <image:loc>https://sainiyash24.github.io/yash-saini-developer.jpeg</image:loc>
+      <image:title>Yash Saini - Full Stack Java Developer</image:title>
+      <image:caption>Yash Saini working as a developer</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://sainiyash24.github.io/yash-saini-java-developer.jpeg</image:loc>
+      <image:title>Yash Saini - Java Developer</image:title>
+      <image:caption>Yash Saini Java developer photograph</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://sainiyash24.github.io/yash-saini-photo.jpeg</image:loc>
+      <image:title>Yash Saini - Portrait</image:title>
+      <image:caption>Yash Saini portrait photograph</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://sainiyash24.github.io/yash-saini-office.jpeg</image:loc>
+      <image:title>Yash Saini - Professional Office Photo</image:title>
+      <image:caption>Yash Saini in a professional office setting</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://sainiyash24.github.io/sainiyash.jpeg</image:loc>
+      <image:title>Yash Saini - Formal Portrait</image:title>
+      <image:caption>Yash Saini formal portrait</image:caption>
+    </image:image>
+
+  </url>
 </urlset>
