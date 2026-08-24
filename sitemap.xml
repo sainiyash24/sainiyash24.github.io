@@ -1,47 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url>
-    <loc>https://sainiyash24.github.io/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
 
-    <image:image>
-      <image:loc>https://sainiyash24.github.io/yash-saini-profile.jpeg</image:loc>
-      <image:title>Yash Saini - Full Stack Java Developer</image:title>
-      <image:caption>Yash Saini professional profile photo</image:caption>
-    </image:image>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-    <image:image>
-      <image:loc>https://sainiyash24.github.io/yash-saini-developer.jpeg</image:loc>
-      <image:title>Yash Saini - Full Stack Java Developer</image:title>
-      <image:caption>Yash Saini working as a developer</image:caption>
-    </image:image>
+    <url>
 
-    <image:image>
-      <image:loc>https://sainiyash24.github.io/yash-saini-java-developer.jpeg</image:loc>
-      <image:title>Yash Saini - Java Developer</image:title>
-      <image:caption>Yash Saini Java developer photograph</image:caption>
-    </image:image>
+        <loc>https://sainiyash24.github.io/</loc>
 
-    <image:image>
-      <image:loc>https://sainiyash24.github.io/yash-saini-photo.jpeg</image:loc>
-      <image:title>Yash Saini - Portrait</image:title>
-      <image:caption>Yash Saini portrait photograph</image:caption>
-    </image:image>
+        <lastmod>2026-08-24</lastmod>
 
-    <image:image>
-      <image:loc>https://sainiyash24.github.io/yash-saini-office.jpeg</image:loc>
-      <image:title>Yash Saini - Professional Office Photo</image:title>
-      <image:caption>Yash Saini in a professional office setting</image:caption>
-    </image:image>
+        <changefreq>weekly</changefreq>
 
-    <image:image>
-      <image:loc>https://sainiyash24.github.io/sainiyash.jpeg</image:loc>
-      <image:title>Yash Saini - Formal Portrait</image:title>
-      <image:caption>Yash Saini formal portrait</image:caption>
-    </image:image>
+        <priority>1.0</priority>
 
-  </url>
+
+        <!-- Yash Saini Profile -->
+
+        <image:image>
+            <image:loc>https://sainiyash24.github.io/yash-saini-profile.jpeg</image:loc>
+        </image:image>
+
+
+        <!-- Yash Saini Developer -->
+
+        <image:image>
+            <image:loc>https://sainiyash24.github.io/yash-saini-developer.jpeg</image:loc>
+        </image:image>
+
+
+        <!-- Yash Saini Java Developer -->
+
+        <image:image>
+            <image:loc>https://sainiyash24.github.io/yash-saini-java-developer.jpeg</image:loc>
+        </image:image>
+
+
+        <!-- Yash Saini Professional Photo -->
+
+        <image:image>
+            <image:loc>https://sainiyash24.github.io/yash-saini-photo.jpeg</image:loc>
+        </image:image>
+
+
+        <!-- Yash Saini Office -->
+
+        <image:image>
+            <image:loc>https://sainiyash24.github.io/yash-saini-office.jpeg</image:loc>
+        </image:image>
+
+
+        <!-- Yash Saini Formal Portrait -->
+
+        <image:image>
+            <image:loc>https://sainiyash24.github.io/sainiyash.jpeg</image:loc>
+        </image:image>
+
+
+        <!-- Yash Saini Village Photo -->
+
+        <image:image>
+            <image:loc>https://sainiyash24.github.io/village-yash.jpeg</image:loc>
+        </image:image>
+
+
+        <!-- Yash Saini College Photo -->
+
+        <image:image>
+            <image:loc>https://sainiyash24.github.io/yash-saini-college.jpeg</image:loc>
+        </image:image>
+
+
+        <!-- Yash Saini Instagram Photo -->
+
+        <image:image>
+            <image:loc>https://sainiyash24.github.io/yash-saini-insta.jpeg</image:loc>
+        </image:image>
+
+
+        <!-- Yash Saini Instagram Photo 2 -->
+
+        <image:image>
+            <image:loc>https://sainiyash24.github.io/yash-saini-instagram.jpeg</image:loc>
+        </image:image>
+
+
+        <!-- Yash Saini Kurta Photo -->
+
+        <image:image>
+            <image:loc>https://sainiyash24.github.io/kurta.jpeg</image:loc>
+        </image:image>
+
+
+        <!-- Yash Saini Kurta Pajama Photo -->
+
+        <image:image>
+            <image:loc>https://sainiyash24.github.io/kurta-pajama.jpeg</image:loc>
+        </image:image>
+
+
+        <!-- Yash Saini Pathani Photo -->
+
+        <image:image>
+            <image:loc>https://sainiyash24.github.io/pathani.jpeg</image:loc>
+        </image:image>
+
+    </url>
+
 </urlset>
